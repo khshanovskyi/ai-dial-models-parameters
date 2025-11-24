@@ -11,9 +11,10 @@ from task.app.main import run
 # - gemini-2.5-pro
 
 run(
-    # TODO:
-    #  1. Provide `deployment_name` with model from the list above👆
-    #  2. Use `n` parameter with value in range from 1 to 5!
+    deployment_name="gpt-5-nano-2025-08-07",
+    print_request=True, # Switch to False if you do not want to see the request in console
+    print_only_content=False, # Switch to True if you want to see only content from response
+    n=2  # Number of chat completion choices to generate for each input message
 )
 
 # Pay attention to the number of choices in the response!
