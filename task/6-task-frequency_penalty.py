@@ -11,6 +11,7 @@ from task.app.main import run
 run(
     deployment_name='gpt-4o',
     print_only_content=True,
+    frequency_penalty=0.0,
     # TODO:
     #  Use `frequency_penalty` parameter with different range (-2.0 to 2.0).
 )

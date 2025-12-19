@@ -12,7 +12,7 @@ from task.app.main import run
 # - gemini-2.5-pro
 
 run(
-    deployment_name='INSERT_DEPLOYMENT_NAME',
+    deployment_name='gemini-2.5-pro',
     print_request=False, # Switch to False if you do not want to see the request in console
     print_only_content=False, # Switch to True if you want to see only content from response
 )
